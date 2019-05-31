@@ -82,11 +82,9 @@ int main()
     string elem;
     Stack <int> stck(5);
     cout << "Welcome to Stack's tester!" << endl;
-    cout << "\n-To add element use command 'push x' (x - your's 
-element)" << endl;
+    cout << "\n-To add element use command 'push x' (x - your's element)" << endl;
     cout << "-To remove element from stack use command 'pop'" << endl;
-    cout << "-To display the stack on the screen use command 'print'" << 
-endl;
+    cout << "-To display the stack on the screen use command 'print'" << endl;
     cout << "-To stop working use command 'stop'" << endl;
     cin >> key;
     if (key == "stop")
