@@ -5,5 +5,6 @@ project(stack)
 set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES stack_shilov.cpp)
+set(SOURCE_FILES rb_tree_shilov.cpp)
 
 add_executable(stack_shilov ${SOURCE_FILES})
