@@ -7,4 +7,6 @@ compiler:
 - gcc
 - clang
 
-script: make stack_shilov
+script:
+- make stack_shilov
+- make rb_tree_shilov
